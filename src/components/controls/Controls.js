@@ -11,7 +11,7 @@ const Controls = (props) => {
   return (
     <div  className='controls'>
         <div>
-            <p>totalPrice:{props.total}</p>
+            <p className='total'>totalPrice:{props.total}</p>
         </div>
     {product.map((item)=>{ 
                            return <Builder key={item.title}
