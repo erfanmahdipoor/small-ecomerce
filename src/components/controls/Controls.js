@@ -1,7 +1,7 @@
 import React from 'react'
 import './controls.css' 
 import Builder from './builder/Builder'
-const Controls = () => {
+const Controls = (props) => {
     const product =[
         {title:"product1",type:"product1"},
         {title:"product2",type:"product2"},
@@ -10,8 +10,16 @@ const Controls = () => {
     ]
   return (
     <div  className='controls'>
+        <div>
+            <p>totalPrice:{props.total}</p>
+        </div>
     {product.map((item)=>{ 
-                           return <Builder key={item.title} title={item.title}/>})}
+                           return <Builder key={item.title}
+                                           title={item.title} 
+                                           add={()=>props.productAdd(item.type)}
+                                           remove={()=>{props.productRemove(item.type)}}
+                            />})}
+                            <button className='order-btn'>order</button>
     </div>
   )
 }
