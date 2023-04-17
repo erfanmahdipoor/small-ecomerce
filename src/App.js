@@ -1,9 +1,11 @@
 import React from 'react'
-import Layout from './containers/layout/Layout'
+import Layout from './components/layout/Layout'
+import Shopping from './containers/shopping/Shopping'
 const App = () => {
   return (
     <Layout>
-      <div>shopping</div>
+      
+      <Shopping/>
     </Layout>
   )
 }

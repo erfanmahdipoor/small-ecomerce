@@ -1,0 +1,41 @@
+.builder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 12px 0;
+
+}
+/* .builder button {
+    display: block;
+    text-align: center;
+    font-family: inherit;
+    padding: 50px;
+    width: 80px;
+    margin: 0 12px;
+    border: none;
+    background-color: #9c27c0;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    
+} */
+.builder div{ 
+    color:#8e24aa;
+    margin: 12px 0;
+
+}
+.btn{
+    /* display: block; */
+    text-align: center;
+    justify-content: center;
+    font-family: inherit;
+    padding: 50px;
+    width: 80px;
+    height: 50px;
+    margin: 0 12px;
+    border: none;
+    background-color: #76ff05;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+}
