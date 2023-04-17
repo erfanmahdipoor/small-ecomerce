@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Vazirmatn-Thin";
+    src: url(./fonts/Vazirmatn-Thin.woff2);
+  }
+@font-face {
+    font-family: "Vazirmatn-Black";
+    src: url(./fonts/Vazirmatn-Black.woff2);
+  }
+
+  body{
+    font-family: "Vazirmatn-Black";
+
+
+  }
